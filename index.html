@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TP bootstrap</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<nav>
+		<div class="container">
+			<div class="navbar justify-content-between">
+				<h1 class="navbar-brand">TP Bootstrap</h1>
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link text-muted" href="">Accueil</a></li>
+					<li class="nav-item"><a class="nav-link text-muted" href="#programmes">Programmes</a></li>
+					<li class="nav-item"><a class="nav-link text-muted" href="#objectifs">Objectifs</a></li>	
+				</ul>
+				<button type="button" class="btn btn-primary button2" data-bs-toggle="modal" data-bs-target="#exampleModal">S'inscrire</button>
+			</div>
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  			<div class="modal-dialog">
+	   			 	<div class="modal-content">
+	      				<div class="modal-header">
+	        				<h3 class="modal-title" id="exampleModalLabel">Inscription gratuite</h3>
+	        				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      				</div>
+	      				<div class="modal-body">
+	      					<form>
+	      						<div class="form-group">
+	      							<input class="col-sm-12 form-control" type="email" name="email" placeholder="Email">
+	      						</div>
+	      						<div class="form-group mt-3">
+	      							<input class="col-sm-12 form-control" type="password" name="password" placeholder="Mot de passe">
+	      						</div>
+	      						<div class="form-group mt-3">
+	      							<input class="col-sm-12 btn btn-primary" type="submit" name="inscrire" value="Sign up">
+	      						</div>
+	      					</form>
+	      					<div class="conditions col-sm-12 mt-3">
+	      						<p>En cliquant sur s'inscrire, vous acceptez les conditions d'utilisations.</p>
+	      					</div>
+	      					<h5 class="mt-2">Ou utilisez un tiers</h5>
+	      					<div class="tiers">
+	      						<button class="input-group-text btn btn-primary mt-1 gris col-lg-12"><a href="#">Inscrivez-vous avec Twitter</a></button>
+	      						<button class="input-group-text btn btn-primary mt-1 blue col-lg-12"><a href="#">Inscrivez-vous avec Facebook</a></button>
+	      						<button class="input-group-text btn btn-primary mt-1 gris col-lg-12"><a href="#">Inscrivez-vous avec Github</a></button>
+	      					</div>
+	    				</div>
+	    			</div>
+	  			</div>
+			</div>
+		</div>
+	</nav>
+	<section class="header text-center">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-8">
+					<h1 class="mt-5 apprendreT">APPRENEZ LE CODE</h1>
+					<p class="apprendreP">Complétez vos reves en programmation web et mobile.</br>
+						Apprenez la programmation web ou mobile à distance et pour un prix raisonnable.Vous n'avez pas à lutter seul,vous avez notre assistance et notre aide.
+					</p>	
+				</div>
+			<div class="row justify-content-center button1">
+				<div class="col-sm-2 more">
+					<button class="input-group-text btn btn-primary button"><a href="#">En savoir plus</a></button>
+				</div>
+				<div class="col-sm-2 gray">
+					<input class="btn btn-primary" type="submit" name="inscrire" value="S'inscrire">
+				</div>
+			</div>
+			<div class="img-header col-sm-8 mt-5">
+				<p><img class="img-fluid" src="assets/images/img3.jpeg"></p>
+			</div>
+				
+			</div>
+		</div>
+	</section>
+	<section class="programmes" id="programmes">
+		<div class="container">
+			<div style="padding-left:30px;" class="row justify-content-around">
+				<h2 class="p-3 text-center">NOS PROGRAMMES</h2>
+				<div class="col-sm-4 left">
+					<div class="card">
+						<p><img class="img-fluid" src="assets/images/img1.jpeg"></p>
+						<div class="card-body">
+							<div class="card-title"><p>Developpement Web</p></div>
+							<div class="card-text">Apprennez à commencer à créer une page web à partir de zéro.Vous décidez de votre rythme d'apprentissage.</div>
+							<button class="input-group-text btn btn-primary button"><a href="#">En savoir plus</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<p><img class="img-fluid" src="assets/images/img6.jpeg"></p>
+						<div class="card-body">
+							<div class="card-title"><p>Developpement Android</p></div>
+							<div class="card-text">Le role du developpeur android est de programmer des applications pour smartphones et tablettes android.</div>
+							<button class="input-group-text btn btn-primary button"><a href="#">En savoir plus</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 right">
+					<div class="card">
+						<p><img class="img-fluid" src="assets/images/img2.jpeg"></p>
+						<div class="card-body">
+							<div class="card-title"><p>Conception graphique</p></div>
+							<div class="card-text">Vous avez une passion pour le graphisme et les arts? Montrez votre talent et assurance</div>	
+							<button class="input-group-text btn btn-primary button"><a href="#">En savoir plus</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reseau mt-5" id="objectifs">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div style="margin-left: 40px;" class="col-sm-6">
+					<h1 class="col-sm-6">UN RESEAU INTERNTIONAL</h1>
+					<p class="col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip commodo
+					nostrud exercitation ullamco laboris nisi ut aliquip commodo.</p>
+					<div class="col-sm-6 mt-4">
+						<button class="input-group-text btn btn-primary button"><a href="#">En savoir plus</a></button>
+					</div>
+				</div>
+				<div style="margin-left: 20px;" class="col-sm-5">
+					<p><img class="img-fluid radius col-sm-11" src="assets/images/img4.jpeg"></p>	
+				</div>	
+			</div>
+		</div>
+	</section>
+	<section class="reve mt-5 p-5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div style="padding-left: 18px;" class="col-sm-5">
+					<p><img class="img-fluid radius col-sm-12" src="assets/images/img5.jpeg"></p>	
+				</div>
+				<div class="col-sm-6" style="padding-left: 25px">
+					<h1 class="col-sm-10">CONSTRUISEZ VOTRE REVE MAINTENANT</h1>
+					<p class="col-sm-12 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip commodo
+					nostrud exercitation ullamco laboris nisi ut aliquip commodo.</p>
+					<div class="button col-sm-6 mt-4">
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">S'inscrire</button>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2 mt-3">
+					<h5>Section</h5>
+					<a class="nav-link text-muted" href="#">Home</a></li>
+					<a class="nav-link text-muted" href="#">Features</a></li>
+					<a class="nav-link text-muted" href="#">Pricing</a></li>
+					<a class="nav-link text-muted" href="#">FAQs</a></li>
+					<a class="nav-link text-muted" href="#">About</a></li>
+				</div>
+				<div class="col-sm-2 mt-3">
+					<h5>Section</h5>
+					<a class="nav-link text-muted" href="#">Home</a></li>
+					<a class="nav-link text-muted" href="#">Features</a></li>
+					<a class="nav-link text-muted" href="#">Pricing</a></li>
+					<a class="nav-link text-muted" href="#">FAQs</a></li>
+					<a class="nav-link text-muted" href="#">About</a></li>
+				</div>
+				<div class="col-sm-2 mt-3">
+					<h5>Section</h5>
+					<a class="nav-link text-muted" href="#">Home</a></li>
+					<a class="nav-link text-muted" href="#">Features</a></li>
+					<a class="nav-link text-muted" href="#">Pricing</a></li>
+					<a class="nav-link text-muted" href="#">FAQs</a></li>
+					<a class="nav-link text-muted" href="#">About</a></li>
+				</div>
+				<div class="col-sm-5 mt-3 newsletter">
+					<div class="col-sm-12">
+						<h4>Abonnez-vous à notre newsletter</h4>
+						<p>Résumé mensuel de ce qui est nouveau et passionant de notre part</p>
+						<form>
+							<div class="input-group">
+								<input class="form-control" type="email" name="mail">
+								<button class="input-group-text btn btn-primary">Envoyer</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

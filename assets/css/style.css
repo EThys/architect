@@ -1,0 +1,153 @@
+a{
+	text-decoration:none;
+}
+.button a{
+	color: #fff;
+}
+
+.button a:hover{
+	color: #fff;
+}
+nav{
+	box-shadow: 0 2px 22px #ccc;
+}
+.nav-link{
+	font-size: 18px;
+}
+.button2{
+	background-color: transparent;
+	border-color: #039BE5;
+	font-size: 18px;
+	color: #039BE5;
+}
+.apprendreT{
+	font-size: 50px;
+	font-weight: 700;
+}
+.apprendreP{
+	font-size: 20px;
+	color: #9E9E9E;
+}
+.more button{
+	font-size: 18px;
+	font-weight: 500;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*---------------------MODAL--------------------*/
+.modal-dialog{
+	width: 30%;
+}
+.modal-content{
+	padding-left: 25px;
+	padding-right: 25px
+}
+.modal-header{
+	border-bottom: none;
+}
+.conditions{
+	border-bottom: 1px solid #ccc;
+}
+.conditions p{
+	color: #9E9E9E;
+	font-size: 17px;
+}
+.gris{
+	background-color: transparent;
+	border-color: #9E9E9E;
+}
+.gris a{
+	color: #9E9E9E;
+}
+.blue{
+	background-color: transparent;
+	border-color: #039BE5;
+}
+.blue a{
+	color: #039BE5;
+}
+.blue:hover{
+	background-color: transparent;
+	border-color:  #039BE5;
+}
+.gris:hover{
+	background-color: transparent;
+	border-color:  #9E9E9E;
+}
+.tiers{
+	padding-bottom: 20px;
+}
+/*---------------------MODAL--------------------*/
+.gray{
+	padding-right: 60px
+}
+.gray input{
+	padding-left: 20px;
+	padding-right: 15px;
+	font-size: 19px;
+	font-weight: 500;
+	background-color: transparent;
+	color: #9E9E9E;
+	border-color: #9E9E9E;
+}
+.button1 .btn{
+	font-size: 20px;
+}
+.img-header img{
+	border-radius: 5px;
+}
+.programmes{
+	background-color: #eee;
+	position: relative;
+	z-index: 1;
+	padding-bottom: 20px;
+	margin-top: -100px;
+}
+.programmes h2{
+	font-weight: 700;
+}
+.programmes .card-title{
+	margin-top: -20px;
+}
+.left{
+	margin-right: -80px;
+}
+.right{
+	margin-left: -80px;
+}
+.card{
+	width: 90%;
+	border-radius: 3px;
+}
+.card-body .card-title{
+	font-weight: bold;
+	font-size: 18px;
+}
+.card-body .btn{
+	margin-top: 10px;
+}
+.radius{
+	border-radius: 3px;
+}
+.reseau h1,.reve h1{
+	font-weight: bold;
+}
+.reve{
+	background-color: #eee;
+}
+footer h5{
+	padding-left: 17px;
+}
+footer .newsletter{
+	padding-left: 10%;
+}
+footer .newsletter h4{
+	font-weight: 500
+	;font-size: 22px;
+}
+footer .newsletter p{
+	font-size: 18px;
+}
+footer form button{
+	margin-left: 1%;
+}
